@@ -1,0 +1,6 @@
+ModuleInstalled:matplotlib
+ModuleInstalled:pillow
+ModuleInstalled:nvidia-ml-py3
+ModuleInstalled:numpy
+ModuleInstalled:requests
+GPUFreeMem:7000.0

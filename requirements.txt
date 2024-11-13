@@ -1,0 +1,7 @@
+torch==2.3.0
+torchvision==0.18.0
+albumentations=1.4.14
+numpy==1.24.4
+opencv-python==4.10.0.84
+mmdet==3.2.0
+mmyolo==0.6.0

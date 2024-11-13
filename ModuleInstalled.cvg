@@ -1,0 +1,5 @@
+ModuleInstalled:matplotlib
+ModuleInstalled:pillow
+ModuleInstalled:nvidia-ml-py3
+ModuleInstalled:numpy
+ModuleInstalled:requests

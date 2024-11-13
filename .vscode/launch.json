@@ -1,0 +1,56 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "inferdetect",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "inferwithdetect.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python 调试程序: 使用进程 ID 附加",
+            "type": "debugpy",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        },
+        {
+            "name": "test",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "test2.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "train",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "sixdrepnet/train.py",
+            "args": [
+                "--num_epochs",
+                "100",
+                "--batch_size",
+                "8"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "convertdata",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "convertdata.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "infer",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "infer.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
